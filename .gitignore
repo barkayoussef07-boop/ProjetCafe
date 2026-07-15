@@ -1,0 +1,20 @@
+# --- Java / Maven (cafe-api) ---
+cafe-api/target/
+cafe-api/*.log
+HELP.md
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets / config locale ---
+.env
+*.keystore
+!debug.keystore
+local.properties
