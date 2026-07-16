@@ -97,13 +97,12 @@ npx react-native run-android
 
 > ⚠️ Sur l'émulateur Android, `localhost` fait référence à l'émulateur lui-même, pas à la machine hôte. Utiliser `10.0.2.2` pour atteindre le backend depuis l'app.
 
-## 🔧 Configuration
+## Comptes de test
 
-`cafe-api/src/main/resources/application.properties` :
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/cafe_db
-spring.datasource.username=root
-spring.datasource.password=
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+| Rôle | Email | Mot de passe |
+|---|---|---|
+| Gérant | admin@cafe.com | admin123 |
+| Client | à créer via "Créer un compte" dans l'app | — |
+| Comptoiriste | créé par le gérant depuis l'onglet "Utilisateurs" | — |
+
 ```
